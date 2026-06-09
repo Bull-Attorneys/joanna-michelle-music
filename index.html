@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Joanna Michelle - Multi-instrumentalist, singer, and performer">
     <title>Joanna Michelle | Music</title>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
@@ -27,7 +31,7 @@
                 <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
                 <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
                 <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
-                <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+                <a href="https://www.youtube.com/@JoAnnaMichellemusic" target="_blank"><i class="fab fa-youtube"></i></a>
             </div>
         </div>
     </header>
@@ -38,15 +42,18 @@
             <div class="featured-single">
                 <p class="label">Watch my new single</p>
                 <h1 class="single-title">"TOO SOPHISTICATED"</h1>
-                <div class="single-cover">
+                <a href="https://www.youtube.com/watch?v=JZRhv2Hx84Q" target="_blank" class="single-cover">
                     <img src="images/Too_Sopisticated_Final.avif" alt="Too Sophisticated Album Cover">
                     <div class="play-overlay">
                         <i class="fas fa-play-circle"></i>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
         <div class="hero-bottom">
+            <div class="instagram-header">
+                <h2 class="instagram-title">INSTAGRAM</h2>
+            </div>
             <img src="images/collage.png" alt="Joanna Michelle" class="collage-image">
         </div>
     </section>
@@ -56,41 +63,12 @@
         <img src="images/twin-angel-logo.png" alt="Twin Angel Records">
     </div>
 
-    <!-- Instagram Section -->
-    <section class="instagram-section">
+    <!-- Bio Section -->
+    <section class="bio-section" id="bio">
         <div class="container">
-            <h2 class="section-title">INSTAGRAM</h2>
-            <div class="instagram-grid">
-                <div class="instagram-item">
-                    <div class="placeholder-image">
-                        <i class="fab fa-instagram"></i>
-                    </div>
-                </div>
-                <div class="instagram-item">
-                    <div class="placeholder-image">
-                        <i class="fab fa-instagram"></i>
-                    </div>
-                </div>
-                <div class="instagram-item">
-                    <div class="placeholder-image">
-                        <i class="fab fa-instagram"></i>
-                    </div>
-                </div>
-                <div class="instagram-item">
-                    <div class="placeholder-image">
-                        <i class="fab fa-instagram"></i>
-                    </div>
-                </div>
-                <div class="instagram-item">
-                    <div class="placeholder-image">
-                        <i class="fab fa-instagram"></i>
-                    </div>
-                </div>
-                <div class="instagram-item">
-                    <div class="placeholder-image">
-                        <i class="fab fa-instagram"></i>
-                    </div>
-                </div>
+            <h2 class="section-title">BIO</h2>
+            <div class="bio-content">
+                <p>As early as first grade, JoAnna began piano lessons, and has since become a true multi-instrumentalist – proficient at drums, guitar, keyboards, and vocals. While developing her musical abilities, she has also continued to pursue dance studies, focusing on hip hop, ballet, modern, jazz, and tap.</p>
             </div>
         </div>
     </section>
@@ -99,49 +77,120 @@
     <section class="media-section" id="media">
         <div class="container">
             <h2 class="section-title">MEDIA</h2>
-            <div class="media-grid">
-                <div class="media-column">
-                    <h3>LISTEN</h3>
-                    <div class="listen-items">
-                        <div class="listen-item">
-                            <i class="fas fa-play-circle"></i>
-                            <span>Entourage (I Am My Own)</span>
-                        </div>
-                        <div class="listen-item">
-                            <i class="fas fa-play-circle"></i>
-                            <span>My Snap Story</span>
-                        </div>
-                        <div class="music-embed">
-                            <div class="placeholder-embed">
-                                <i class="fas fa-headphones"></i>
-                                <p>Music Player Embed</p>
+            
+            <!-- Listen Section -->
+            <div class="listen-section">
+                <h3 class="media-subtitle">LISTEN</h3>
+                <div class="listen-grid">
+                    <div class="listen-card">
+                        <div class="track-info">
+                            <div class="play-button">
+                                <i class="fas fa-play-circle"></i>
                             </div>
+                            <span class="track-name">Entourage (I Am My Own)</span>
+                        </div>
+                        <div class="music-links">
+                            <a href="https://amazon.com/music/player/albums/B01M7P06KC?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_PeMpKPwhJmRzso33QNIQBKeBU&trackAsin=B01M63EIN9" target="_blank" class="music-link amazon" title="Listen on Amazon Music">
+                                <i class="fab fa-amazon"></i>
+                            </a>
+                            <a href="https://music.apple.com/us/album/entourage-i-am-my-own-single/1164553053" target="_blank" class="music-link apple" title="Listen on Apple Music">
+                                <i class="fab fa-apple"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="listen-card">
+                        <div class="track-info">
+                            <div class="play-button">
+                                <i class="fas fa-play-circle"></i>
+                            </div>
+                            <span class="track-name">My Snap Story</span>
+                        </div>
+                        <div class="music-links">
+                            <a href="https://amazon.com/music/player/albums/B01F9J52YA?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_VVMRW2gR3NKOSrBLbzjGodRsr&trackAsin=B01F9J573Q" target="_blank" class="music-link amazon" title="Listen on Amazon Music">
+                                <i class="fab fa-amazon"></i>
+                            </a>
+                            <a href="https://music.apple.com/us/album/my-snap-story-single/1111579460" target="_blank" class="music-link apple" title="Listen on Apple Music">
+                                <i class="fab fa-apple"></i>
+                            </a>
                         </div>
                     </div>
                 </div>
-                <div class="media-column">
-                    <h3>WATCH</h3>
-                    <div class="watch-items">
-                        <div class="video-player">
-                            <div class="placeholder-video">
-                                <i class="fab fa-youtube"></i>
-                                <p>Video Player</p>
-                                <p class="video-title">JoAnna Michelle College Highlight</p>
-                            </div>
+            </div>
+
+            <!-- Watch Section -->
+            <div class="watch-section">
+                <h3 class="media-subtitle">WATCH</h3>
+                <div class="video-grid">
+                    <div class="video-item">
+                        <div class="video-wrapper">
+                            <iframe src="https://www.youtube.com/embed/8JWjn-pbMS4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
+                        <h3 class="video-title">JoAnna Michelle College Highlight</h3>
+                    </div>
+                    <div class="video-item">
+                        <div class="video-wrapper">
+                            <iframe src="https://www.youtube.com/embed/k_ZuFXBpPfA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <h3 class="video-title">Wild Ones featuring Lucid</h3>
+                    </div>
+                    <div class="video-item">
+                        <div class="video-wrapper">
+                            <iframe src="https://www.youtube.com/embed/H7fXWufHWCk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <h3 class="video-title">Blaze the Dance Floor</h3>
+                    </div>
+                    <div class="video-item">
+                        <div class="video-wrapper">
+                            <iframe src="https://www.youtube.com/embed/JZRhv2Hx84Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <h3 class="video-title">Too Sophisticated</h3>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Bio Section -->
-    <section class="bio-section" id="bio">
+    <!-- Gallery Section -->
+    <section class="gallery-section" id="gallery">
         <div class="container">
-            <h2 class="section-title">BIO</h2>
-            <div class="bio-content">
-                <p>As early as first grade, JoAnna began piano lessons, and has since become a true multi-instrumentalist – proficient at drums, guitar, keyboards, and vocals. While developing her musical abilities, she has also continued to pursue dance studies, focusing on hip hop, ballet, modern, jazz, and tap.</p>
-                <p>JoAnna's diverse musical background allows her to create unique sounds that blend multiple genres and styles, creating an authentic and captivating experience for her audience.</p>
+            <h2 class="section-title">GALLERY</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="images/gallery-01.jpg" alt="Joanna Michelle Performance">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery-02.jpg" alt="Joanna Michelle Performance">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery-03.jpg" alt="Joanna Michelle Performance">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery-04.jpg" alt="Joanna Michelle Performance">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery-05.jpg" alt="Joanna Michelle Performance">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery-06.jpg" alt="Joanna Michelle Performance">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -202,5 +251,17 @@
             <p>&copy; 2026 Joanna Michelle Music. All Rights Reserved.</p>
         </div>
     </footer>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+        <button class="lightbox-close" aria-label="Close">&times;</button>
+        <button class="lightbox-prev" aria-label="Previous"><i class="fas fa-chevron-left"></i></button>
+        <button class="lightbox-next" aria-label="Next"><i class="fas fa-chevron-right"></i></button>
+        <div class="lightbox-content">
+            <img id="lightbox-img" src="" alt="">
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
 </body>
 </html>
